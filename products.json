@@ -1,0 +1,628 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "category": "vegetable",
+            "name_ar": "خرشوف",
+            "name_en": "Artichoke",
+            "name_it": "Carciofo",
+            "image": "../images/product1.png",
+            "description_ar": "قلوب الخرشوف الطرية، مثالية للسلطات والبيتزا والأطباق الفاخرة. غنية بالألياف ومضادات الأكسدة.",
+            "description_en": "Tender artichoke hearts, perfect for salads, pizzas, and gourmet dishes. Rich in fiber and antioxidants.",
+            "description_it": "Cuori di carciofo teneri, perfetti per insalate, pizze e piatti gourmet. Ricchi di fibre e antiossidanti.",
+            "images": [
+                "../images/product1-1.jfif",
+                "../images/product1-2.jpg",
+                "../images/product1-3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "vegetable",
+            "name_ar": "فاصوليا خضراء",
+            "name_en": "Green Beans",
+            "name_it": "Fagioli Verdi",
+            "image": "../images/product2.png",
+            "description_ar": "فاصوليا خضراء مقرمشة، مثالية للقلي السريع والطواجن. غنية بالفيتامينات والمعادن.",
+            "description_en": "Crisp green beans, perfect for stir-fries and casseroles. Packed with vitamins and minerals.",
+            "description_it": "Fagiolini croccanti, perfetti per soffritti e stufati. Ricchi di vitamine e minerali.",
+            "images": [
+                "../images/product2-1.jfif",
+                "../images/product2-2.jpg",
+                "../images/product2-3.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "vegetable",
+            "name_ar": "بروكلي",
+            "name_en": "Broccoli",
+            "name_it": "Broccole",
+            "image": "../images/product3.png",
+            "description_ar": "بروكلي طازج ومقرمش، غني بالفيتامينات والمعادن. مثالي للسلق أو الطهي على البخار.",
+            "description_en": "Fresh broccoli florets, ideal for steaming, stir-frying, or adding to casseroles. Highin vitamins K and C.",
+            "description_it": "Cimette di broccoli fresche, ideali per la cottura a vapore, in padella o per essere aggiunte alle casseruole. Ricche di vitamine K e C.",
+            "images": [
+                "../images/product3-1.webp",
+                "../images/product3-2.jpg",
+                "../images/product3-3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "vegetable",
+            "name_ar": "قرنبيط",
+            "name_en": "Cauliflower",
+            "name_it": "Cavolfiore",
+            "image": "../images/product4.png",
+            "description_ar": "قرنبيط طازج، مثالي للشوربات والأطباق الجانبية. غني بالألياف والفيتامينات.",
+            "description_en": "Versatile cauliflower, great for roasting, mashing, or as a low-carb substitute in recipes. Rich in fiber and B vitamins.",
+            "description_it": "Cavolfiore versatile, ottimo da arrostire, schiacciare o come sostituto a basso contenuto di carboidrati nelle ricette. Ricco di fibre e vitamine del gruppo B.",
+            "images": [
+                "../images/product4-1.jpg",
+                "../images/product4-2.jfif",
+                "../images/product4-3.webp"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "vegetable",
+            "name_ar": "بامية",
+            "name_en": "Okra",
+            "name_it": "Gombo",
+            "image": "../../images/product5.png",
+            "description_ar": "قرون البامية الطرية، مثالية للقلي، والجومبو، وإضافة مغذية إلى أطباق مختلفة.",
+            "description_en": "Tender okra pods, great for frying, gumbo, and as a nutritious addition to various dishes.",
+            "description_it": "Teneri baccelli di okra, ottimi per friggere, preparare il gumbo e come aggiunta nutriente a vari piatti.",
+            "images": [
+                "../images/product5-1.jpg",
+                "../images/product5-2.jpg",
+                "../images/product5-3.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "vegetable",
+            "name_ar": "خضار مشكل",
+            "name_en": "Mixed Vegetables",
+            "name_it": "Verdure Miste",
+            "image": "../images/product6.png",
+            "description_ar": " مزيج موسمي من الخضروات مثل الجزر والبازلاء والذرة، مثالي لشوربات الشتاء والطواجن. مزيج متنوع من الخضراوات، بما في ذلك الفاصوليا الخضراء والجزر والبازلاء والذرة. مثالي للأرز المقلي والأطباق المقلية",
+            "description_en": "An assorted blend of vegetables including green beans, carrots, peas, and corn. Ideal for fried rice and stir-fries,A seasonal mix of vegetables like carrots, peas, and corn, ideal for winter soups and casseroles.",
+            "description_it": "Un mix assortito di verdure, tra cui fagiolini, carote, piselli e mais. Ideale per riso fritto e soffritti,Un mix stagionale di verdure come carote, piselli e mais, ideale per zuppe e stufati invernali.",
+            "images": [
+                "../images/product6-1.png",
+                "../images/product6-2.png",
+                "../images/product6-3.png"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "vegetable",
+            "name_ar": "أوراق الملوخية",
+            "name_en": "Molokhia Leaves",
+            "name_it": "Foglie di Molokhia",
+            "image": "../images/product7-1.png",
+            "description_ar": "أوراق الملوخية الطازجة، مثالية للأطباق التقليدية مثل حساء الملوخية. غنية بالفيتامينات والمعادن.",
+            "description_en": "Fresh molokhia leaves, ideal for traditional dishes like molokhia soup. Rich in vitamins and minerals.",
+            "description_it": "Foglie fresche di molokhia, ideali per piatti tradizionali come la zuppa di molokhia. Ricche di vitamine e minerali.",
+            "images": [
+                "../images/product7-11.jfif",
+                "../images/product7-2.jpeg",
+                "../images/product7-3.webp"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "vegetable",
+            "name_ar": "ملوخية مفرومة",
+            "name_en": "Chopped Mallow",
+            "name_it": "Molokhia tritata",
+            "image": "../images/product7.png",
+            "description_ar": "ملوخية مفرومة بشكل مريح، مثالية لتحضير أطباق الملوخية بسرعة. مغذية ولذيذة.",
+            "description_en": "Conveniently chopped molokhia, perfect for quick preparation of molokhia dishes. Nutritious and flavorful.",
+            "description_it": "Molokhia tritato in modo pratico, perfetto per preparare velocemente piatti a base di molokhia. Nutriente e saporito.",
+            "images": [
+                "../images/product7-11.jfif",
+                "../images/product7-12.jfif",
+                "../images/product7-13.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "vegetable",
+            "name_ar": "أوراق السبانخ",
+            "name_en": "Spinach Leaves",
+            "name_it": "Foglie di spinaci",
+            "image": "../images/product8.png",
+            "description_ar": "أوراق سبانخ طازجة، مثالية للسلطات والسندويشات والطبخ. غنية بالحديد وفيتاميني أ و ج.",
+            "description_en": "Fresh spinach leaves, great for salads, sandwiches, and cooking. High in iron and vitamins A and C.",
+            "description_it": "Foglie fresche di spinaci, ottime per insalate, panini e per cucinare. Ricche di ferro e vitamine A e C.",
+            "images": [
+                "../images/product8-1.jfif",
+                "../images/product8-2.jfif",
+                "../images/product8-3.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "vegetable",
+            "name_ar": "سبانخ مفرومة",
+            "name_en": "Chopped Spinach",
+            "name_it": "Spinaci tritati",
+            "image": "../../../images/product8-1.png",
+            "description_ar": "سبانخ مفرومة بشكل ملائم، مثالية لإضافتها إلى العجة والمعكرونة وتغطية البيتزا.",
+            "description_en": "Conveniently chopped spinach, perfect for adding to omelets, pasta, and as a pizza topping.",
+            "description_it": "Spinaci tritati in modo pratico, perfetti da aggiungere a frittate, pasta e come condimento per la pizza.",
+            "images": [
+                "../../../images/product8-3.jpg",
+                "../../../images/product8-12.jpg",
+                "../../../images/product8.png"
+            ]
+        },
+         {
+            "id": 11,
+            "category": "vegetable",
+            "name_ar": "ورق عنب",
+            "name_en": "Grape Leaves",
+            "name_it": "Foglie di vite",
+            "image": "../../images/product9.png",
+            "description_ar": "ورق عنب طري، مثالي لتحضير ورق عنب محشي (دولمة). مصدر غني بفيتاميني أ و ك.",
+            "description_en": "Tender grape leaves, ideal for making stuffed grape leaves (dolmas). A good source of vitamins A and K.",
+            "description_it": "Tenerissime foglie di vite, ideali per preparare i dolma (foglie di vite ripiene). Ottima fonte di vitamine A e K.",
+            "images": [
+                "../../images/product9-1.jpg",
+                "../../images/product9-2.webp",
+                "../../images/product9-3.jpg"
+            ]
+        },
+         {
+            "id": 12,
+            "category": "vegetable",
+            "name_ar": "الفلفل الحلو (الملون)",
+            "name_en": "Sweet Bell Peppers (Colored)",
+            "name_it": "Peperoni dolci (colorati)",
+            "image": "../images/product10.png",
+            "description_ar": "فلفل رومي ملون، رائع للسلطات والأطباق المقلية، وكإضافة للبيتزا. غني بفيتاميني أ و ج.",
+            "description_en": "Colorful bell peppers, great for salads, stir-fries, and as a pizza topping. High in vitamins A and C.",
+            "description_it": "Peperoni colorati, ottimi per insalate, fritture e come condimento per la pizza. Ricchi di vitamine A e C.",
+            "images": [
+                "../images/product10-1.jpg",
+                "../images/product10-2.jfif",
+                "../images/product10-3.jpeg"
+            ]
+        },
+         {
+            "id": 13,
+            "category": "vegetable",
+            "name_ar": "الفلفل الحار الأحمر والأخضر",
+            "name_en": "Red and Green Jalapeños",
+            "name_it": "Jalapeños rossi e verdi",
+            "image": "../images/product11.png",
+            "description_ar": "هالبينو أحمر وأخضر حار، مثالي للصلصات، ولإضافة نكهة حارة للأطباق. غني بفيتاميني أ و ج.",
+            "description_en": "Spicy red and green jalapeños, perfect for salsas, sauces, and adding heat to dishes. Rich in vitamins A and C.",
+            "description_it": "Jalapeño rossi e verdi piccanti, perfetti per salse e sughi, e per aggiungere piccantezza ai piatti. Ricchi di vitamine A e C.",
+            "images": [
+                "../images/product11-1.png",
+                "../images/product11-2.jfif",
+                "../images/product11-3.jfif"
+            ]
+        },
+         {
+            "id": 14,
+            "category": "vegetable",
+            "name_ar": "باذنجان",
+            "name_en": "Eggplant",
+            "name_it": "Melanzana",
+            "image": "../images/product12.png",
+            "description_ar": "باذنجان طازج، مثالي للشواء والخبز، ولإضافة راتاتوي. غني بالألياف ومضادات الأكسدة.",
+            "description_en": "Fresh eggplant, perfect for grilling, baking, and adding to ratatouille. High in fiber and antioxidants.",
+            "description_it": "Melanzane fresche, perfette per grigliare, cuocere al forno e aggiungere alla ratatouille. Ricche di fibre e antiossidanti.",
+            "images": [
+                "../images/product12-1.webp",
+                "../images/product12-2.jfif",
+                "../images/product12-3.jfif"
+            ]
+        },
+         {
+            "id": 15,
+            "category": "vegetable",
+            "name_ar": "طماطم",
+            "name_en": "Tomato",
+            "name_it": "Pomodoro",
+            "image": "../images/product13.png",
+            "description_ar": "طماطم غنية بالعصارة، مثالية للسلطات والصلصات والطبخ. مصدر غني بفيتاميني C وK.",
+            "description_en": "Juicy tomatoes, great for salads, sauces, and cooking. A rich source of vitamins C and K.",
+            "description_it": "Pomodori succosi, ottimi per insalate, salse e per cucinare. Una ricca fonte di vitamine C e K.",
+            "images": [
+                "../images/product13-1.jpg",
+                "../images/product13-2.jfif",
+                "../images/product13-3.jfif"
+            ]
+        },
+         {
+            "id": 16,
+            "category": "vegetable",
+            "name_ar": "طماطم كرزية",
+            "name_en": "Cherry Tomato",
+            "name_it": "Pomodoro Ciliegino",
+            "image": "../images/product14.png",
+            "description_ar": "طماطم كرزية حلوة، مثالية للوجبات الخفيفة والسلطات وتزيين الأطباق. غنية بفيتامين سي.",
+            "description_en": "Sweet cherry tomatoes, perfect for snacking, salads, and garnishing dishes. High in vitamin C.",
+            "description_it": "Pomodorini dolci, perfetti come spuntini, insalate e guarnizioni per i piatti. Ricchi di vitamina C.",
+            "images": [
+                "../images/product14-1.webp",
+                "../images/product14-2.jpg",
+                "../images/product14-3.jpg"
+            ]
+        },
+         {
+            "id": 17,
+            "category": "vegetable",
+            "name_ar": "البصل الأحمر والأصفر والأبيض",
+            "name_en": "Red, Yellow, and White Onions",
+            "name_it": "Cipolle rosse, gialle e bianche",
+            "image": "../images/product15.png",
+            "description_ar": "بصل عطري، مثالي لنكهة الأطباق، وتحضير الحساء، وكإضافة للبيتزا. غني بمضادات الأكسدة.",
+            "description_en": "Aromatic onions, great for flavoring dishes, making soups, and as a pizza topping. High in antioxidants.",
+            "description_it": "Cipolle aromatiche, ottime per insaporire i piatti, preparare zuppe e come condimento per la pizza. Ricche di antiossidanti.",
+            "images": [
+                "../images/product15-1.jpg",
+                "../images/product15-2.webp",
+                "../images/product15-3.jpg"
+            ]
+        },
+         {
+            "id": 18,
+            "category": "vegetable",
+            "name_ar": "البطاطس",
+            "name_en": "Potato",
+            "name_it": "Patata",
+            "image": "../images/product16.png",
+            "description_ar": "بطاطس متعددة الاستخدامات، مثالية للخبز والهرس والقلي. مصدر غني بفيتاميني C وB6.",
+            "description_en": "Versatile potatoes, ideal for baking, mashing, and frying. A good source of vitamins C and B6.",
+            "description_it": "Patate versatili, ideali per la cottura al forno, il purè e la frittura. Ottima fonte di vitamine C e B6.",
+            "images": [
+                "../images/product16-1.jpg",
+                "../images/product16-2.jpg",
+                "../images/product16-3.jpg"
+            ]
+        },
+         {
+            "id": 19,
+            "category": "vegetable",
+            "name_ar": "الكوسة",
+            "name_en": "Zucchini / Courgette",
+            "name_it": "Zucchine",
+            "image": "../images/product17.png",
+            "description_ar": "كوسا طازجة، مثالية للشواء والقلي السريع، وكبديل للمعكرونة قليلة الكربوهيدرات. غنية بمضادات الأكسدة.",
+            "description_en": "Fresh zucchini, great for grilling, stir-fries, and as a low-carb pasta alternative. High in antioxidants.",
+            "description_it": "Zucchine fresche, ottime per grigliate, saltate in padella e come alternativa alla pasta a basso contenuto di carboidrati. Ricche di antiossidanti.",
+            "images": [
+                "../images/product17-3.jfif",
+                "../images/product17-2.jfif",
+                "../images/product17-1.jfif"
+            ]
+        },
+        {
+            "id": 20,
+            "category": "vegetable",
+            "name_ar": "جزرة",
+            "name_en": "Carrot",
+            "name_it": "Carota",
+            "image": "../images/product18.png",
+            "description_ar": "جزر مقرمش، مثالي للوجبات الخفيفة والسلطات والطبخ. غني بفيتامين أ ومضادات الأكسدة.",
+            "description_en": "Crunchy carrots, ideal for snacking, salads, and cooking. High in vitamin A and antioxidants.",
+            "description_it": "Carote croccanti, ideali per spuntini, insalate e in cucina. Ricche di vitamina A e antiossidanti.",
+            "images": [
+                "../images/product18-1.jpg",
+                "../images/product18-2.webp",
+                "../images/product18-3.webp"
+            ]
+        },
+         {
+            "id": 21,
+            "category": "vegetable",
+            "name_ar": "البازلاء والجزر",
+            "name_en": "Peas and Carrots",
+            "name_it": "Piselli e carote",
+            "image": "../images/product19.png",
+            "description_ar": "مزيج كلاسيكي من البازلاء الحلوة والجزر الطري، مثالي للأطباق الجانبية والطواجن.",
+            "description_en": "A classic combination of sweet peas and tender carrots, perfect for side dishes and casseroles.",
+            "description_it": "Una combinazione classica di piselli dolci e carote tenere, perfetta per contorni e sformati.",
+            "images": [
+                "../images/product19-1.jfif",
+                "../images/product19-2.jfif",
+                "../images/product19-3.jfif"
+            ]
+        },
+          {
+            "id": 22,
+            "category": "vegetable",
+            "name_ar": "البازلاء الخضراء",
+            "name_en": "Green Peas",
+            "name_it": "Piselli verdi",
+            "image": "../images/product20.png",
+            "description_ar": "بازلاء خضراء حلوة، مثالية للحساء والسلطات والأطباق المقلية. مصدر غني بالبروتين النباتي.",
+            "description_en": "Sweet green peas, perfect for adding to soups, salads, and stir-fries. A good source of plant-based protein.",
+            "description_it": "Piselli dolci, perfetti da aggiungere a zuppe, insalate e soffritti. Una buona fonte di proteine ​​vegetali.",
+            "images": [
+                "../images/product20-1.jfif",
+                "../images/product20-2.webp",
+                "../images/product20-3.jpeg"
+            ]
+        },
+          {
+            "id": 23,
+            "category": "vegetable",
+            "name_ar": "كراث",
+            "name_en": "Leek",
+            "name_it": "Porro",
+            "image": "../images/product21.png",
+            "description_ar": "كراث خفيف وحلو، مثالي للشوربات واليخنات والأطباق المقلية. مصدر جيد لفيتاميني أ و ك.",
+            "description_en": "Mild and sweet leeks, perfect for soups, stews, and sautés. A good source of vitamins A and K.",
+            "description_it": "Porri dal sapore dolce e delicato, perfetti per zuppe, stufati e soffritti. Ottima fonte di vitamine A e K.",
+            "images": [
+                "../images/product21-1.jpg",
+                "../images/product21-2.jpeg",
+                "../images/product21-3.webp"
+            ]
+        },
+          {
+            "id": 24,
+            "category": "vegetable",
+            "name_ar": "فول أخضر",
+            "name_en": "Green Fava Beans",
+            "name_it": "Fave verdi",
+            "image": "../images/product22.png",
+            "description_ar": "فول أخضر كامل، مثالي للشوربات والوصفات التقليدية. مغذي ولذيذ.",
+            "description_en": "Whole green fava beans, great for soups and traditional recipes. Nutritious and delicious.",
+            "description_it": "Fave verdi intere, ottime per zuppe e ricette tradizionali. Nutrienti e deliziose.",
+            "images": [
+                "../images/product22-1.jpg",
+                "../images/product22-2.webp",
+                "../images/product22-3.webp"
+            ]
+        },
+          {
+            "id": 25,
+            "category": "vegetable",
+            "name_ar": "فول أخضر مقشر",
+            "name_en": "Peeled Green Fava Beans",
+            "name_it": "Fave verdi sbucciate",
+            "image": "../images/product23.png",
+            "description_ar": "فول أخضر طازج مقشر، مثالي لليخنات المصرية والأطباق الجانبية الصحية. غني بالبروتين.",
+            "description_en": "Freshly peeled green fava beans, ideal for Egyptian stews and healthy side dishes. High in protein.",
+            "description_it": "Fave verdi appena sbucciate, ideali per stufati egiziani e contorni salutari. Ricche di proteine.",
+            "images": [
+                "../images/product23-1.jfif",
+                "../images/product23-2.jpg",
+                "../images/product22-1.jpg"
+            ]
+        },
+          {
+            "id": 26,
+            "category": "vegetable",
+            "name_ar": "الفاصوليا البيضاء",
+            "name_en": "White Beans",
+            "name_it": "Fagioli bianchi",
+            "image": "../images/product24.png",
+            "description_ar": "فاصوليا بيضاء كريمية، مثالية للشوربات والسلطات الدسمة. مصدر غني بالبروتين النباتي.",
+            "description_en": "Creamy white beans, excellent for hearty soups and salads. A great source of plant-based protein.",
+            "description_it": "Fagioli bianchi cremosi, ottimi per zuppe e insalate sostanziose. Un'ottima fonte di proteine ​​vegetali.",
+            "images": [
+                "../images/product24-1.jfif",
+                "../images/product24-2.jpg",
+                "../images/product24-3.webp"
+            ]
+        },
+          {
+            "id": 27,
+            "category": "vegetable",
+            "name_ar": "أكواز الذرة الحلوة",
+            "name_en": "Sweet Corn Cobs",
+            "name_it": "Pannocchie di mais dolce",
+            "image": "../images/product25.png",
+            "description_ar": "أكواز ذرة حلوة غنية بالعصير، مثالية للسلق والشواء وإضافتها إلى السلطات. مصدر غني بالألياف.",
+            "description_en": "Juicy sweet corn cobs, ideal for boiling, grilling, or adding to salads. A good source of fiber.",
+            "description_it": "Pannocchie di mais dolce e succose, ideali da bollire, grigliare o aggiungere alle insalate. Un'ottima fonte di fibre.",
+            "images": [
+                "../images/product25-1.jpg",
+                "../images/product25-2.jpg",
+                "../images/product25-3.jpg"
+            ]
+        },
+          {
+            "id": 28,
+            "category": "vegetable",
+            "name_ar": "الذرة الحلوة",
+            "name_en": "Sweet Corn",
+            "name_it": "Mais dolce",
+            "image": "../images/product26.png",
+            "description_ar": "ذرة حلوة ذهبية، مثالية للوجبات الخفيفة والسلطات وكطبق جانبي. غنية بالفيتامينات والمعادن.",
+            "description_en": "Golden sweet corn, perfect for snacking, salads, and as a side dish. Rich in vitamins and minerals.",
+            "description_it": "Mais dolce dorato, perfetto per spuntini, insalate e come contorno. Ricco di vitamine e minerali.",
+            "images": [
+                "../images/product26-1.jpg",
+                "../images/product26-2.jpg",
+                "../images/product26-3.jfif"
+            ]
+        },
+          {
+            "id": 29,
+            "category": "vegetable",
+            "name_ar": "البطاطا الحلوة",
+            "name_en": "Sweet Potato",
+            "name_it": "Patata dolce",
+            "image": "../images/product27.png",
+            "description_ar": "بطاطا حلوة مغذية، مثالية للخبز والهرس أو كطبق جانبي صحي. غنية بالبيتا كاروتين والألياف.",
+            "description_en": "Nutritious sweet potatoes, great for baking, mashing, or as a healthy side dish. High in beta-carotene and fiber.",
+            "description_it": "Patate dolci nutrienti, ottime da cuocere al forno, da schiacciare o come contorno sano. Ricche di beta-carotene e fibre.",
+            "images": [
+                "../images/product27-1.png",
+                "../images/product27-2.jfif",
+                "../images/product27-3.jpg"
+            ]
+        },
+          {
+            "id": 30,
+            "category": "fruit",
+            "name_ar": "الفراولة",
+            "name_en": "Strawberry",
+            "name_it": "Fragola",
+            "image": "../images/product28.png",
+            "description_ar": "فراولة حلوة وعصيرية، مثالية للحلويات والعصائر والوجبات الخفيفة. غنية بفيتامين سي.",
+            "description_en": "Sweet and juicy strawberries, perfect for desserts, smoothies, and snacking. Rich in vitamin C.",
+            "description_it": "Fragole dolci e succose, perfette per dessert, frullati e spuntini. Ricche di vitamina C.",
+            "images": [
+                "../images/product28-1.jfif",
+                "../images/product28-2.jfif",
+                "../images/product28-3.jpeg"
+            ]
+        },
+          {
+            "id": 31,
+            "category": "fruit",
+            "name_ar": "مانجو",
+            "name_en": "Mango",
+            "name_it": "Mango",
+            "image": "../images/product29.png",
+            "description_ar": "شرائح مانجو ناضجة، مثالية للعصائر والحلويات والأطباق الاستوائية. غنية بفيتاميني أ و ج.",
+            "description_en": "Ripe mango slices, ideal for smoothies, desserts, and tropical dishes. High in vitamins A and C.",
+            "description_it": "Fette di mango maturo, ideali per frullati, dessert e piatti tropicali. Ricco di vitamine A e C.",
+            "images": [
+                "../images/product29-1.jpg",
+                "../images/product29-2.jfif",
+                "../images/product29-3.jpeg"
+            ]
+        },
+          {
+            "id": 32,
+            "category": "fruit",
+            "name_ar": "الجوافة",
+            "name_en": "Guava",
+            "name_it": "Guaiava",
+            "image": "../images/product30.png",
+            "description_ar": "جوافة طازجة، مثالية للأكل نيئة، أو في سلطات الفواكه، أو كعصير. غنية بالألياف الغذائية وفيتامين سي.",
+            "description_en": "Fresh guava, great for eating raw, in fruit salads, or as a juice. High in dietary fiber and vitamin C.",
+            "description_it": "Guava fresca, ottima da consumare cruda, in macedonia o come succo. Ricca di fibre alimentari e vitamina C.",
+            "images": [
+                "../images/product30-1.jfif",
+                "../images/product30-2.jpg",
+                "../images/product30-3.jfif"
+            ]
+        },
+        {
+            "id": 33,
+            "category": "fruit",
+            "name_ar": "تين",
+            "name_en": "Fig",
+            "name_it": "Fico",
+            "image": "../images/product31.png",
+            "description_ar": "تين حلو، مثالي للحلويات وأطباق الجبن، وكوجبة خفيفة صحية. غني بالألياف والسكريات الطبيعية.",
+            "description_en": "Sweet figs, perfect for desserts, cheese platters, and as a healthy snack. High in fiber and natural sugars.",
+            "description_it": "Fichi dolci, perfetti per dessert, taglieri di formaggi e come spuntino sano. Ricchi di fibre e zuccheri naturali.",
+            "images": [
+                "../images/product31-1.jfif",
+                "../images/product31-2.webp",
+                "../images/product31-3.jfif"
+            ]
+        },
+        {
+            "id": 34,
+            "category": "fruit",
+            "name_ar": "التين الشوكي",
+            "name_en": "Prickly Pear",
+            "name_it": "Fico d'India",
+            "image": "../images/product32.png",
+            "description_ar": "تين شوكي غريب، مثالي للسلطات والصلصات، وكوجبة خفيفة. غني بمضادات الأكسدة وفيتامين سي.",
+            "description_en": "Exotic prickly pear, ideal for salads, salsas, and as a snack. Rich in antioxidants and vitamin C.",
+            "description_it": "Fico d'India esotico, ideale per insalate, salse e come spuntino. Ricco di antiossidanti e vitamina C.",
+            "images": [
+                "../images/product32-1.jpg",
+                "../images/product32-2.jfif",
+                "../images/product32-3.jpg"
+            ]
+        },
+        {
+            "id": 35,
+            "category": "fruit",
+            "name_ar": "فاكهة التنين",
+            "name_en": "Dragon Fruit",
+            "name_it": "Frutto del Drago",
+            "image": "../images/product33.png",
+            "description_ar": "فاكهة التنين نابضة بالحياة، مثالية للعصائر وسلطات الفاكهة، وكزينة. غنية بفيتامين سي.",
+            "description_en": "Vibrant dragon fruit, great for smoothies, fruit salads, and as a decorative garnish. High in vitamin C.",
+            "description_it": "Frutto del drago dal colore vivace, ottimo per frullati, macedonie e come guarnizione decorativa. Ricco di vitamina C.",
+            "images": [
+                "../images/product33-1.jfif",
+                "../images/product33-2.jpg",
+                "../images/product33-3.jfif"
+            ]
+        },
+        {
+            "id": 36,
+            "category": "fruit",
+            "name_ar": "أناناس",
+            "name_en": "Pineapple",
+            "name_it": "Ananas",
+            "image": "../images/product34.png",
+            "description_ar": "قطع أناناس طرية، مثالية للحلويات والعصائر والأطباق الاستوائية. غنية بفيتامين سي والمنجنيز.",
+            "description_en": "Juicy pineapple chunks, great for desserts, smoothies, and tropical dishes. High in vitamin C and manganese.",
+            "description_it": "Pezzi succosi di ananas, ottimi per dessert, frullati e piatti tropicali. Ricchi di vitamina C e manganese.",
+            "images": [
+                "../images/product34-1.webp",
+                "../images/product34-2.webp",
+                "../images/product34-3.webp"
+            ]
+        },
+        {
+            "id": 37,
+            "category": "fruit",
+            "name_ar": "الأفوكادو",
+            "name_en": "Avocado",
+            "name_it": "Avocado",
+            "image": "../images/product35.png",
+            "description_ar": "أفوكادو كريمي، مثالي للسلطات والسندويشات ولتحضير الغواكامولي. غني بالدهون الصحية وفيتاميني E وK.",
+            "description_en": "Creamy avocado, ideal for salads, sandwiches, and making guacamole. High in healthy fats and vitamins E and K.",
+            "description_it": "Avocado cremoso, ideale per insalate, panini e per preparare il guacamole. Ricco di grassi sani e vitamine E e K.",
+            "images": [
+                "../images/product35-1.jpg",
+                "../images/product35-2.jpg",
+                "../images/product35-3.jpg"
+            ]
+        },
+        {
+            "id": 38,
+            "category": "fruit",
+            "name_ar": "كيوي",
+            "name_en": "Kiwi",
+            "name_it": "kiwi",
+            "image": "../images/product36.png",
+            "description_ar": "كيوي لاذع، مثالي لسلطات الفاكهة والحلويات وكوجبة خفيفة. غني بفيتامين سي والألياف الغذائية.",
+            "description_en": "Tart kiwi fruit, perfect for fruit salads, desserts, and as a snack. High in vitamin C and dietary fiber.",
+            "description_it": "Kiwi dal sapore aspro, perfetto per macedonie, dessert e come spuntino. Ricco di vitamina C e fibre alimentari.",
+            "images": [
+                "../images/product36-1.webp",
+                "../images/product36-2.jfif",
+                "../images/product36-3.jpg"
+            ]
+        },
+        {
+            "id": 39,
+            "category": "fruit",
+            "name_ar": "ليمون",
+            "name_en": "Lemon",
+            "name_it": "Limone",
+            "image": "../images/product37.png",
+            "description_ar": "الليمون هو فاكهة حمضية صفراء غنية بفيتامين C، تشتهر بمذاقها الحامض واستخداماتها المتعددة في الطهي والمشروبات والطب التقليدي.",
+            "description_en": "The lemon is a yellow citrus fruit rich in Vitamin C, known for its sour taste and versatile uses in cooking, beverages, and traditional medicine.",
+            "description_it": "The lemon is a yellow citrus fruit rich in Vitamin C, known for its sour taste and versatile uses in cooking, beverages, and traditional medicine.",
+            "images": [
+                "../images/product37-1.jfif",
+                "../images/product37-2.webp",
+                "../images/product37-3.jpg"
+            ]
+        }
+    ]
+}
