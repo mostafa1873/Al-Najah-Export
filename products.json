@@ -150,14 +150,14 @@
             "name_ar": "سبانخ مفرومة",
             "name_en": "Chopped Spinach",
             "name_it": "Spinaci tritati",
-            "image": "../../../images/product8-1.png",
+            "image": "../images/product8-1.png",
             "description_ar": "سبانخ مفرومة بشكل ملائم، مثالية لإضافتها إلى العجة والمعكرونة وتغطية البيتزا.",
             "description_en": "Conveniently chopped spinach, perfect for adding to omelets, pasta, and as a pizza topping.",
             "description_it": "Spinaci tritati in modo pratico, perfetti da aggiungere a frittate, pasta e come condimento per la pizza.",
             "images": [
-                "../../../images/product8-3.jpg",
-                "../../../images/product8-12.jpg",
-                "../../../images/product8.png"
+                "../images/product8-3.jpg",
+                "../images/product8-12.jpg",
+                "../images/product8.png"
             ]
         },
          {
@@ -166,14 +166,14 @@
             "name_ar": "ورق عنب",
             "name_en": "Grape Leaves",
             "name_it": "Foglie di vite",
-            "image": "../../images/product9.png",
+            "image": "../images/product9.png",
             "description_ar": "ورق عنب طري، مثالي لتحضير ورق عنب محشي (دولمة). مصدر غني بفيتاميني أ و ك.",
             "description_en": "Tender grape leaves, ideal for making stuffed grape leaves (dolmas). A good source of vitamins A and K.",
             "description_it": "Tenerissime foglie di vite, ideali per preparare i dolma (foglie di vite ripiene). Ottima fonte di vitamine A e K.",
             "images": [
-                "../../images/product9-1.jpg",
-                "../../images/product9-2.webp",
-                "../../images/product9-3.jpg"
+                "../images/product9-1.jpg",
+                "../images/product9-2.webp",
+                "../images/product9-3.jpg"
             ]
         },
          {

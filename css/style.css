@@ -55,6 +55,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .logo {
@@ -67,7 +68,6 @@ a {
 .header.active .logo,
 .header.active .navbar-link {
     color: #198754;
-    /* لون أخضر تم توحيده */
 }
 
 .nav-open-btn {
@@ -269,6 +269,20 @@ a {
     font-family: 'Cairo', sans-serif;
 }
 
+[dir="rtl"] .header .container {
+    flex-direction: row;
+}
+
+[dir="rtl"] .logo {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+[dir="rtl"] .lang-btn {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
 [dir="rtl"] .navbar {
     left: auto;
     right: -100%;
@@ -282,6 +296,7 @@ a {
     padding-left: 0;
     padding-right: 10px;
 }
+
 
 /* HERO SECTION */
 
@@ -617,49 +632,8 @@ a {
     transform: scale(1.05);
 }
 
-/* VALUES SECTION */
-.circle-values-section {
-    padding: 100px 20px;
-    background: #f8f9fa;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.circle-values-section .section-title {
-    color: #198754;
-    font-size: 2rem;
-    margin-bottom: 60px;
-    position: relative;
-}
-
-.circle-wrapper {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-}
-
-.center-circle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 160px;
-    height: 160px;
-    background: #198754;
-    border-radius: 50%;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-weight: 700;
-    text-transform: uppercase;
-    box-shadow: 0 0 20px rgba(25, 135, 84, 0.3);
-}
-
 /* GLOBAL REACH SECTION */
+
 .global-reach-section {
     padding: 100px 20px;
     background: #f8f9fa;
@@ -692,7 +666,6 @@ a {
     border-radius: 10px;
 }
 
-/* نقاط الانتشار */
 .country-point {
     position: absolute;
     width: 18px;
@@ -731,7 +704,6 @@ a {
     opacity: 1;
 }
 
-/* أنميشن النبض */
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -765,7 +737,6 @@ a {
     margin-bottom: 60px;
 }
 
-/* الخط الرئيسي */
 .journey-timeline {
     position: relative;
     max-width: 1000px;
@@ -785,7 +756,6 @@ a {
     border-radius: 10px;
 }
 
-/* كل عنصر */
 .journey-item {
     padding: 20px 40px;
     position: relative;
@@ -797,7 +767,6 @@ a {
     position: absolute;
     width: 22px;
     height: 22px;
-    right: -11px;
     background-color: #ffc107;
     border: 4px solid #fff;
     top: 25px;
@@ -805,7 +774,6 @@ a {
     z-index: 1;
 }
 
-/* العناصر اليسار */
 .journey-item.left {
     left: 0;
     text-align: right;
@@ -813,18 +781,19 @@ a {
 
 .journey-item.left::after {
     right: -11px;
+    left: auto;
 }
 
-/* العناصر اليمين */
 .journey-item.right {
     left: 50%;
+    text-align: left;
 }
 
 .journey-item.right::after {
     left: -11px;
+    right: auto;
 }
 
-/* المحتوى */
 .journey-item .content {
     background: #fff;
     padding: 20px;
@@ -837,10 +806,38 @@ a {
     transform: translateY(-5px);
 }
 
-.journey-item h3 {
-    color: #198754;
-    margin-bottom: 10px;
+
+html[dir="rtl"] .journey-timeline::after {
+    left: auto;
+    right: 50%;
+    margin-right: -2px;
 }
+
+html[dir="rtl"] .journey-item {
+    left: auto;
+    right: 50%;
+    text-align: right;
+}
+
+html[dir="rtl"] .journey-item.right {
+    left: 0;
+    right: auto;
+    text-align: left;
+}
+
+
+html[dir="rtl"] .journey-item.left::after {
+    right: -11px;
+    left: auto;
+}
+
+html[dir="rtl"] .journey-item.right::after {
+    left: -11px;
+    right: auto;
+}
+
+/* end */
+
 
 /* PRODUCTS PAGE */
 
@@ -912,7 +909,6 @@ a {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    /* 🔥 إصلاحات قائمة المنتجات */
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -924,7 +920,6 @@ a {
 }
 
 .listProduct .item .img-container {
-    /* 🔥 ارتفاع ثابت لحاوية الصورة */
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
@@ -937,7 +932,6 @@ a {
 }
 
 .listProduct .item img {
-    /* 🔥 استخدام contain */
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -1039,7 +1033,6 @@ a {
     transform: scale(1.05);
 }
 
-
 .content-section {
     flex: 1 1 60%;
     padding-top: 20px;
@@ -1100,7 +1093,6 @@ a {
 
 /* CONTACT US */
 
-/* 🔥 إضافة تنسيق نص المقدمة لصفحة التواصل */
 .contact-intro-heading {
     font-size: 1.8rem;
     font-weight: 700;
@@ -1148,7 +1140,6 @@ a {
     overflow: hidden;
 }
 
-/* الترتيب العكسي للـ RTL */
 [dir="rtl"] .contact-wrapper {
     flex-direction: row-reverse;
 }
@@ -1158,7 +1149,6 @@ a {
     flex: 1;
     padding: 40px;
     background-color: #f0fff0;
-    /* 🔥 إصلاح تنسيق التواصل: إضافة Flex */
     display: flex;
     flex-direction: column;
 }
@@ -1177,10 +1167,8 @@ a {
     margin-bottom: 25px;
     font-size: 1.1rem;
     color: #343a40;
-    /* ❌ تم حذف تنسيق الأيقونات القديم */
 }
 
-/* 🔥 تنسيق الـ Labels لتمييزها (Address:, Phone:, etc.) */
 .info-item .info-label {
     font-weight: 700;
     color: #146c43;
@@ -1190,7 +1178,6 @@ a {
 .map-placeholder {
     width: 100%;
     height: 300px;
-    /* ارتفاع ثابت نسبيًا */
     background-color: #e9ecef;
     border-radius: 8px;
     display: flex;
@@ -1199,7 +1186,6 @@ a {
     align-items: center;
     margin-top: 30px;
     color: #6c757d;
-    /* 🔥 لدفع الخريطة إلى أسفل القسم في contact-info */
     margin-top: auto;
 }
 
@@ -1435,32 +1421,70 @@ footer {
         max-width: 100%;
     }
 
-
-    .journey-timeline::after {
-        left: 30px;
-    }
-
     .journey-item {
         width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-
-    .journey-item::after {
-        left: 22px;
+        left: 0;
+        right: auto;
+        padding-left: 60px;
+        padding-right: 20px;
+        text-align: left;
     }
 
     .journey-item.left,
     .journey-item.right {
         left: 0;
-        text-align: left;
+        right: auto;
     }
 
-    .journey-item .content {
-        text-align: left;
+    .journey-timeline::after {
+        left: 20px;
+        margin-left: -2px;
+        right: auto;
+        margin-right: 0;
     }
 
-    /* VALUE */
+    .journey-item::after {
+        left: 20px;
+        margin-left: -11px;
+        right: auto;
+    }
+
+    html[dir="rtl"] .journey-item {
+        padding-left: 20px;
+        padding-right: 60px;
+        left: auto;
+        right: 0;
+        text-align: right;
+    }
+
+    html[dir="rtl"] .journey-item.left,
+    html[dir="rtl"] .journey-item.right {
+        left: auto;
+        right: 0;
+    }
+
+    html[dir="rtl"] .journey-timeline::after {
+        right: 20px;
+        margin-right: -2px;
+        left: auto;
+        margin-left: 0;
+    }
+
+    html[dir="rtl"] .journey-item::after {
+        right: 20px;
+        margin-right: -11px;
+        left: auto;
+    }
+
+    .journey-item.left::after,
+    .journey-item.right::after,
+    html[dir="rtl"] .journey-item.left::after,
+    html[dir="rtl"] .journey-item.right::after {
+        left: inherit !important;
+        right: inherit !important;
+    }
+
+    /* GLOBAL MAP */
 
     .global-reach-section {
         padding: 60px 15px;
@@ -1476,8 +1500,6 @@ footer {
     }
 }
 
-
-/* 🔥 Media Query for Contact Us Page (إصلاح الريسبونسف) */
 @media (max-width: 800px) {
     .contact-wrapper {
         flex-direction: column-reverse !important;
@@ -1509,3 +1531,5 @@ footer {
         height: 250px;
     }
 }
+
+/* RESPONSIVENESS */

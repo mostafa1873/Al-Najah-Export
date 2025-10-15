@@ -47,7 +47,6 @@ const mobileLangMenu = document.querySelector('.lang-menu-mobile');
 const mobileLangLabel = document.getElementById('mobile-lang-label');
 
 let currentLang = localStorage.getItem('lang') || 'en';
-
 let currentTranslations = {};
 
 function updateLangLabels() {
@@ -117,31 +116,36 @@ document.addEventListener('click', (e) => {
     }
 });
 
-// JSON FILE TRANSLATIONS PATH
+// JSON FILE TRANSLATIONS PATH + AUTO REFRESH FOR PRODUCTS
 
 function loadLanguageFile(lang) {
-    fetch(`lang/${lang}.json`)
+    const langPath = window.location.pathname.includes('/pages/')
+        ? '../lang/'
+        : './lang/';
+
+    fetch(`${langPath}${lang}.json`)
         .then(res => res.json())
         .then(data => {
             currentTranslations = data;
             applyTranslations(data);
+            updateLangLabels();
 
-            if (products.length > 0) {
-                if (document.querySelector('.detail')) {
-                    showDetail();
-                }
-                if (document.querySelector('.listProduct')) {
-                    addDataToHTML(currentFilter);
-                }
+            if (document.querySelector('.listProduct') && allProducts.length > 0) {
+                addDataToHTML(currentFilter);
+            }
+
+            if (document.querySelector('.detail') && allProducts.length > 0) {
+                showDetail();
             }
         })
         .catch(err => console.error('Error loading language file:', err));
 }
 
-// TRANSLATE
+//  TRANSLATE USING data-lang
+
 function applyTranslations(data) {
     for (const key in data) {
-        const elements = document.querySelectorAll(`[data-lang-key="${key}"]`);
+        const elements = document.querySelectorAll(`[data-lang="${key}"]`);
         elements.forEach(el => {
             el.textContent = data[key];
         });
@@ -169,15 +173,12 @@ async function loadProducts() {
         if (document.querySelector('.detail')) showDetail();
 
         setupFilterButtons();
-
     } catch (error) {
         console.error('🚨 Error loading products:', error);
     }
 }
 
-
-
-//  LIST ALL PRODUCTS + FILTER SUPPORT
+//  LIST ALL PRODUCTS + FILTER SUPPORT
 
 function addDataToHTML(filter = "all") {
     const listProductHTML = document.querySelector('.listProduct');
@@ -195,21 +196,21 @@ function addDataToHTML(filter = "all") {
         newProduct.href = `${linkPrefix}productdetails.html?id=${product.id}`;
         newProduct.classList.add('item');
 
-       newProduct.innerHTML = `
-    <div class="img-container"> 
+        newProduct.innerHTML = `
+      <div class="img-container"> 
         <img src="${product.image}" alt="${product[`name_${currentLang}`]}">
-    </div>
-    <h2>${product[`name_${currentLang}`]}</h2>
-    <button class="details-button">
+      </div>
+      <h2>${product[`name_${currentLang}`]}</h2>
+      <button class="details-button">
         ${getTranslation("details_page_button_details")}
-    </button>
+      </button>
     `;
 
         listProductHTML.appendChild(newProduct);
     });
 }
 
-//  FILTER BUTTONS
+//  FILTER BUTTONS
 
 function setupFilterButtons() {
     const filterButtons = document.querySelectorAll('.filter-btn');
@@ -225,7 +226,7 @@ function setupFilterButtons() {
     });
 }
 
-//  PRODUCT DETAILS PAGE
+//  PRODUCT DETAILS PAGE
 
 function showDetail() {
     const detail = document.querySelector('.detail');
@@ -292,14 +293,12 @@ function showDetail() {
 document.addEventListener('DOMContentLoaded', () => {
     updateLangLabels();
     loadLanguageFile(currentLang);
-    loadProducts(); 
-    
+    loadProducts();
+
     const orderButton = document.querySelector('.action-button');
     if (orderButton) {
         orderButton.addEventListener('click', () => {
-            
-             window.location.href = '../pages/contact.html'; 
+            window.location.href = '../pages/contact.html';
         });
     }
 });
-
