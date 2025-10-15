@@ -1163,6 +1163,7 @@ html[dir="rtl"] .journey-item.right::after {
 
 .info-item {
     display: flex;
+    flex-direction: column;
     gap: 15px;
     margin-bottom: 25px;
     font-size: 1.1rem;
@@ -1257,6 +1258,51 @@ html[dir="rtl"] .journey-item.right::after {
 .submit-btn:hover {
     background-color: #1e7e34;
     transform: translateY(-2px);
+}
+
+/* SOCIAL ICON */
+
+.social-icons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+
+.social-icon.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.social-icon.whatsapp {
+    background-color: #25d366;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+html[dir="rtl"] .social-icons {
+    flex-direction: row-reverse;
 }
 
 /* FOOTER */
